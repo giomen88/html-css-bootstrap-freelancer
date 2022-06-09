@@ -1,0 +1,56 @@
+/* GENERICS */
+body {
+    font-family: sans-serif;
+}
+
+:root {
+    --green: rgb(26, 188, 156);
+    --blue: rgb(58, 84, 109);
+    --darkblue: rgb(44, 62, 80);
+}
+
+header {
+    background-color: var(--darkblue);
+    height: 90px;
+}
+
+/* UTILS */
+
+.b-o {
+    border: 2px dotted orange;
+}
+
+.b-r {
+    border: 2px dotted red;
+}
+
+.b-b {
+    border: 2px dotted blue;
+}
+
+.height-30 {
+    height: 30px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+/* HEADER */
+
+nav .col {
+    height: 50px;
+}
+
+
+/* MAIN */
+
+/* JUMBOTRON */
+
+.jumbotron {
+    background-color: var(--green);
+    height: 500px;
+}
+
+/* PORTFOLIO */
