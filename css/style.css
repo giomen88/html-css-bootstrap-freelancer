@@ -126,17 +126,21 @@ header .col {
 
 /*************** FOOTER *************/
 
-footer .top .btn {
+.about-web .btn {
     background-color: transparent;
     border-color: rgb(255 255 255);
     border-radius: 50%;
 }
 
-footer .btn i {
+.about-web .btn i {
     width: 16px;
     height: 16px;
 }
 
 footer .bottom {
     font-size: 0.8rem;
+}
+
+.freelancer a {
+    color: var(--green);
 }
