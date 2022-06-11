@@ -1,7 +1,8 @@
-/* GENERICS */
+/************** GENERICS *************/
 body {
     font-family: sans-serif;
-    color: RGB(255 255 255);
+    color: rgb(255 255 255);
+    font-size: 1.2rem;
 }
 
 :root {
@@ -17,33 +18,81 @@ header {
 
 footer .top {
     background-color: var(--blue);
+    padding: 30px 0;
 }
 
 footer .bottom {
-
     background-color: var(--darkblue);
-
     height: 70px;
+    padding: 30px 0;
 }
 
-/* UTILS */
-
-img {
-    width: 200px;
-    height: 200px;
+section {
+    padding: 30px 0;
 }
 
-/* HEADER */
 
-/* MAIN */
+/**************** UTILS *************/
+.title {
+    margin-top: 20px;
+}
+
+.mgb-10 {
+    margin-bottom: 10px;
+}
+
+.mgt-30 {
+    margin-top: 30px;
+}
+
+.w-60p {
+    width: 60px;
+}
+
+.bt {
+    border-top: 3px solid;
+}
+
+.pd-010 {
+    padding: 0 10px;
+}
+
+
+/*************** HEADER *************/
+
+header .row {
+    height: 100%;
+}
+
+header .col {
+    line-height: 90px;
+}
+
+/***************** MAIN **************/
 
 /* JUMBOTRON */
 
-.jumbotron {
+#jumbotron {
     background-color: var(--green);
 }
 
+#jumbotron img {
+    width: 200px;
+}
+
+
 /* PORTFOLIO */
+
+#portfolio img {
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+#portfolio .star {
+    color: var(--darkblue);
+}
+
 
 /* ABOUT */
 
@@ -51,7 +100,43 @@ img {
     background-color: var(--green);
 }
 
+#about .btn {
+    background-color: transparent;
+    border-color: rgb(255 255 255);
+}
+
+
 /* CONTACT */
 
+#contact .star {
+    color: var(--darkblue);
+}
 
-/* FOOTER */
+#contact .form input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ced4da;
+}
+
+#contact .form button {
+    background-color: var(--green);
+    border-color: transparent;
+}
+
+
+/*************** FOOTER *************/
+
+footer .top .btn {
+    background-color: transparent;
+    border-color: rgb(255 255 255);
+    border-radius: 50%;
+}
+
+footer .btn i {
+    width: 16px;
+    height: 16px;
+}
+
+footer .bottom {
+    font-size: 0.8rem;
+}

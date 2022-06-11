@@ -9,25 +9,36 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css
     ">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- ICONE -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'
+        integrity='sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=='
+        crossorigin='anonymous' />
 </head>
 
 <body>
 
     <!----------------------------- HEADER ------------------------------->
 
-    <header class="container-fluid mb-30">
+    <header>
 
-        <div class="container h-100">
+        <div class="container">
 
-            <nav class="row b-b h-100 align-items-center">
+            <nav class="row">
 
-                <div class="col height-30 b-r"></div>
-                <div class="col height-30 b-r text-end">
-                    <a href="" class="d-md-none"></a>
+                <div class="col align-middle">
+                    <a class="text-decoration-none fw-bold text-white fs-4" href="">START BOOTSTRAP</a>
+                </div>
+                <div class="col align-middle text-end">
+                    <button type="button" class="btn btn-outline-secondary d-md-none"><i
+                            class="fa-solid fa-bars"></i></button>
                     <ul class="list-inline d-none d-md-block">
-                        <li class="list-inline-item height-30 b-o"><a href=""></a></li>
-                        <li class="list-inline-item height-30 b-o"><a href=""></a></li>
-                        <li class="list-inline-item height-30 b-o"><a href=""></a></li>
+                        <li class="list-inline-item"><a class="text-decoration-none fw-bold text-white fs-6"
+                                href="">PORTFOLIO</a></li>
+                        <li class="list-inline-item"><a class="text-decoration-none fw-bold text-white fs-6"
+                                href="">ABOUT</a></li>
+                        <li class="list-inline-item"><a class="text-decoration-none fw-bold text-white fs-6"
+                                href="">CONTACT</a></li>
                     </ul>
                 </div>
             </nav>
@@ -42,17 +53,29 @@
 
         <!-- JUMBOTRON -->
 
-        <section class="jumbotron">
+        <section id="jumbotron">
 
             <div class="container-fluid">
 
                 <div class="row">
 
                     <div class="col-12 text-center">
-                        <img src="img/avatar.svg" alt="">
-                        <h1 class="">START BOOTSTRAP</h1>
-                        <p> </p>
-                        <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                        <img class="mgb-10" src="img/avatar.svg" alt="">
+                        <div class="title">
+                            <h1 class="mgb-10">START BOOTSTRAP</h1>
+                            <div class="star mgb-10">
+                                <span class="d-inline-block w-60p">
+                                    <hr class="bt opacity-100">
+                                </span>
+                                <span class="d-inline-block pd-010">
+                                    <i class="fa-solid fa-star fa-2x"></i>
+                                </span>
+                                <span class="d-inline-block w-60p">
+                                    <hr class="bt opacity-100">
+                                </span>
+                            </div>
+                        </div>
+                        <span>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</span>
                     </div>
 
                 </div>
@@ -67,30 +90,49 @@
 
             <div class="container">
 
-                <div class="row b-b">
+                <div class="row text-black">
 
                     <div class="col-12 text-center">
-                        <h2 class=""></h2>
-                        <div class=""></div>
+                        <div class="title">
+                            <h2 class="mgb-10">PORTFOLIO</h2>
+                            <div class="star mgb-10">
+                                <span class="d-inline-block w-60p">
+                                    <hr class="bt opacity-100">
+                                </span>
+                                <span class="d-inline-block pd-010">
+                                    <i class="fa-solid fa-star fa-2x"></i>
+                                </span>
+                                <span class="d-inline-block w-60p">
+                                    <hr class="bt opacity-100">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IMMAGINI -->
+
+                    <div class="col-12 col-md-6 col-lg-4 text-center">
+                        <img src="img/cabin.png" alt="">
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 text-center ">
+                        <img src="img/cake.png" alt="">
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 text-center ">
+                        <img src="img/circus.png" alt="">
                     </div>
 
                     <div class="col-12 col-md-6 col-lg-4 text-center">
-                        <img src="" alt="">
+                        <img src="img/game.png" alt="">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 text-center ">
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 text-center ">
-                        <img src="" alt="">
-                    </div>
+
                     <div class="col-12 col-md-6 col-lg-4 text-center">
-                        <img src="" alt="">
+                        <img src="img/safe.png" alt="">
                     </div>
+
                     <div class="col-12 col-md-6 col-lg-4 text-center">
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 text-center">
-                        <img src="" alt="">
+                        <img src="img/submarine.png" alt="">
                     </div>
 
                 </div>
@@ -101,53 +143,98 @@
 
         <!-- ABOUT -->
 
-        <section id="about" class="container-fluid mb-3">
+        <section id="about">
 
-            <div class="container h-100">
+            <div class="container-fluid">
 
-                <div class="row justify-content-center b-b">
+                <div class="row justify-content-center">
 
-                    <div class="col-8 b-r text-center">
-                        <h2 class="height-30 b-o"></h2>
-                        <div class="height-30 b-o"></div>
+                    <div class="title col-8 text-center">
+                        <h2 class="mgb-10">ABOUT</h2>
+                        <div class="star mgb-10">
+                            <span class="d-inline-block w-60p">
+                                <hr class="bt opacity-100">
+                            </span>
+                            <span class="d-inline-block pd-010">
+                                <i class="fa-solid fa-star fa-2x"></i>
+                            </span>
+                            <span class="d-inline-block w-60p">
+                                <hr class="bt opacity-100">
+                            </span>
+                        </div>
                     </div>
 
+                    <!-- DIV PER SPEZZARE RIGA -->
                     <div class="w-100 d-none d-md-block"></div>
 
-                    <div class="col-8 col-md-4 b-r text-center">
-                        <p class="height-100 b-o"></p>
+                    <div class="col-8 col-md-4 text-start">
+                        <p> Freelancer is a free bootstrap theme created by Start
+                            Bootstrap. The download includes the complete
+                            source files including HTML, CSS, and JavaScript as
+                            well as optional LESS stylesheets for easy customization
+                        </p>
                     </div>
 
-                    <div class="col-8 col-md-4 b-r text-center">
-                        <p class="height-100 b-o"></p>
+                    <div class="col-8 col-md-4 text-start">
+                        <p> Whether you're a student looking to showcase your
+                            work, a professional looking to attract clients, or a
+                            graphic artist looking to share your projects, this
+                            template is the perfect starting point!
+                        </p>
                     </div>
 
-                    <div class="col-8 b-r text-center">
-                        <div class="height-30 b-o"></div>
+                    <div class="col-8 text-center">
+                        <div>
+                            <a class="btn btn-primary" href="#" role="button"><i class="fa-solid fa-download"></i>
+                                Download</a>
+                        </div>
                     </div>
-
-
                 </div>
-
-            </div>
 
         </section>
 
         <!-- CONTACT -->
 
-        <section id="contact" class="container-fluid mb-3">
+        <section id="contact">
 
-            <div class="container">
+            <div class="container-fluid">
 
-                <div class="row justify-content-center b-b">
+                <div class="row text-black justify-content-center">
 
-                    <div class="col-8 b-r text-center">
-                        <h2 class="height-30 b-o"></h2>
-                        <div class="height-30 b-o"></div>
-                        <div class="form b-o"></div>
-                        <div class="height-30 b-o"></div>
+                    <div class="title col-8 text-center">
+                        <h2 class="mgb-10">CONTACT ME</h2>
+                        <div class="star mgb-10">
+                            <span class="d-inline-block w-60p">
+                                <hr class="bt opacity-100">
+                            </span>
+                            <span class="d-inline-block pd-010">
+                                <i class="fa-solid fa-star fa-2x"></i>
+                            </span>
+                            <span class="d-inline-block w-60p">
+                                <hr class="bt opacity-100">
+                            </span>
+                        </div>
                     </div>
 
+                    <div class="form col-8">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="textarea" class="form-label">Message</label>
+                            <textarea class="form-control" id="textarea" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
                 </div>
 
             </div>
@@ -169,28 +256,49 @@
                 <div class="row">
 
                     <!-- LOCATION -->
-                    <div class="location col-12 col-md-4 b-r text-center">
-                        <h3 class="height-30 b-o"></h3>
-                        <p class="height-30 b-o"></p>
+                    <div class="location col-12 col-md-4 text-center mgt-30">
+                        <H4>LOCATION</H4>
+                        <p>2215 John Daniel Drive Clark, MO
+                            54243
+                        </p>
                     </div>
 
 
                     <!-- WEB -->
-                    <nav class="web col-12 col-md-4 b-r text-center">
-                        <h3 class="height-30 b-o"></h3>
+                    <nav class="web col-12 col-md-4 text-center mgt-30">
+                        <H4>ABOUT THE WEB</H4>
                         <ul class="list-inline">
-                            <li class="list-inline-item height-30 b-o"><a href=""></a></li>
-                            <li class="list-inline-item height-30 b-o"><a href=""></a></li>
-                            <li class="list-inline-item height-30 b-o"><a href=""></a></li>
-                            <li class="list-inline-item height-30 b-o"><a href=""></a></li>
+                            <li class="list-inline-item">
+                                <a class="btn btn-primary" href="#" role="button">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn btn-primary" href="#" role="button">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn btn-primary" href="#" role="button">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn btn-primary" href="#" role="button">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
 
 
                     <!-- FREELANCER -->
-                    <div class="freelancer col-12 col-md-4 b-r text-center">
-                        <h3 class="height-30 b-o"></h3>
-                        <p class="height-30 b-o"></p>
+                    <div class="freelancer col-12 col-md-4 text-center mgt-30">
+                        <H4>FREELANCER</H4>
+                        <p>Freelance is a free to use, open source
+                            Bootstrap theme created by Start
+                            Bootstrap.
+                        </p>
                     </div>
 
                 </div>
@@ -204,12 +312,12 @@
 
         <div class="bottom container-fluid">
 
-            <div class="container h-100">
+            <div class="container">
 
-                <div class="row align-items-center h-100 b-b">
+                <div class="row align-items-center">
 
-                    <div class="col-12 height-30 b-r">
-                        <p class="height-30 b-o"></p>
+                    <div class="col-12 text-center">
+                        <p> Copyright <i class="fa-solid fa-copyright"></i> Your Website 2019 </p>
                     </div>
 
                 </div>
